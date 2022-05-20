@@ -1,0 +1,145 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.oscuro{
+  color: #FFFFFF;         /*¿está de más?*/
+  background: #000F08;
+  text-align: left;
+}
+
+.oscuro a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.icono svg{
+  width: 1.5em;
+  fill: white;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 1em;
+  vertical-align: middle;
+}
+
+nav{
+  padding: 10px 60px;
+}
+
+.hero-section{
+  text-align: right;
+  background-image: url('../img/bg-hero.png');assets\img\bg-hero.png
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  text-shadow: 0px 3px 6px #00000080;
+  padding: 3em 15em;
+}
+
+.hero-section h1{
+  font-weight: 1000;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-section h2{
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: 2.1em;
+}
+
+.centrado{
+  padding: 4em;
+}
+
+.centrado img{
+  width: 40%;
+}
+
+.centrado h2{
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.centrado p{
+  padding: 0 28em;
+  margin-top: 0.5em;
+}
+
+
+.charla-speaker, .charla-texto{
+  display: inline-block;
+}
+
+.centradodos img{
+  width: 15%;
+  vertical-align: middle;
+}
+
+.brown{
+  background: #A4452C;
+  text-align: left;
+  padding: 4em;
+  padding-left: 21em;
+  white-space: nowrap;
+}
+
+.charla-texto{
+  width: 100%;
+  color:#FFFFFF;
+  vertical-align: middle;
+  margin-left: 1em;
+  white-space: normal;
+}
+
+.charla-texto p{
+  padding-right: 47em;
+  text-align: justify;
+}
+
+.charla-texto h1{
+  font-size: 2em;
+}
+
+
+
+.fotoa, .fotob, .fotoc{
+  display: inline-block;
+  padding: 2em;
+}
+
+.vertical img{
+  width: 70%
+}
+
+.vertical{
+  margin: 5em 0;
+}
+
+.vertical a{
+  text-decoration: none;
+}
+
+.pie{
+  background: #000F08;
+  padding: 3em 0;
+}
+
+.pie p{
+  color: #FFFFFF;
+}
+
+/* .pie i{
+  width: 1em;
+  fill: white;
+} */
